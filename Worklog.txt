@@ -1,0 +1,31 @@
+2022-04-26
+
+Today I started working on the assignment. My idea to go about doing the assignment was as Jeremy suggested,
+going top to bottom working on the def functions. I started adding what things I would need to call back in def main()
+and then started working on def get_image_path which just simply calls where the file shall be saved once I start downloading the images. 
+And then return it so I can use it in another def.
+
+2022-04-27
+Today I didn't do that much to the script but watched a lot of tutorials of people using the nasa api website.
+I wasn't really sure on how to do the dictionary but found giving the date and of course the api key would give me
+back all the data I needed. As well I did the print def since that's pretty straight forward now having the data I just 
+had to call it to be printed. The one thing I was confused about was getting the hash value, but I found a way from taking the 
+bytes with the code .update(img_bytes), and then .hexigest(), I was able to get the hash value. 
+
+2022-04-28
+
+Today I spent my time trying to figure out how to download image and found a raise keywork which I could use to to determine exceptions or errors.
+Overall is a more useful keyword which also shortens the scipt a little. 
+
+2022-04-29
+
+Today I made the data base to be created when not there and to add a few things in it like location, file size, sha, and datetime 
+
+2022-04-30
+
+Having a lot of issues trying to add the information to the data base and eventually figured out through lots of research to call the spots of the data base with question marks, and then 
+calling the path, size, sha, and time after which worked. 
+
+
+2022-05-02 missed a couple logs but I was having a lot of issues with figuring out how to see if the image is in the data base or not,
+eventually i figured it out after a couple days and as well set the background. 
